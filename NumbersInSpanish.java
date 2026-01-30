@@ -5,18 +5,24 @@ public class NumbersInSpanish {
 
  
        // delete the line below and replace with your code
-       if (number == 1){
-            System.out.println("Uno");
-       } else if (number == 2){
-            System.out.println("Dos");
-       } else if (number == 3){
-            System.out.println("Tres");
-       } else if (number == 4){
-            System.out.println("Cuatro");
-       } else if (number == 5){
-            System.out.println("cinco");
-       } else {
-            System.out.println("Sorry I do not know that!");
+       switch (number){
+            case 1:
+                System.out.println("Uno");
+                break;
+            case 2:
+                System.out.println("Dos");
+                break;
+            case 3:
+                System.out.println("Tres");
+                break;
+            case 4:
+                System.out.println("Cuatro");
+                break;
+            case 5:
+                System.out.println("cinco");
+                break;
+            default:
+                System.out.println("Sorry I do not know that!");
        }    
     } 
 }
